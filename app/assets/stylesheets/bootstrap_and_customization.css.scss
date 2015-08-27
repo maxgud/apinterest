@@ -3,4 +3,16 @@ $body-bg: #ecf0f1;
 $navbar-default-bg: #7f8c8d;
 
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+@import "bootstrap-sprockets";
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+.center {
+	text-align: center;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+
+
+			
