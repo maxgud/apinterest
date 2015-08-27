@@ -11,7 +11,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
-gem "paperclip", '~> 4.3'
+gem 'paperclip', '~> 4.3'
+gem 'aws-sdk', '~> 2'
 
 group :development, :test do
 	gem 'sqlite3'
